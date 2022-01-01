@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url(../img/dou.gif)
+    background-posetion:left;
+    background-color: rgb(0, 247, 255);
+    border: 1 solid;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #9d00ff;
+
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+}
+header h1{
+	float: left;
+    padding: 15px 0;
+    color: #9d00ff;
+    border: 1 solid;
+}
+header ul{
+	float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li:hover{
+    background-color: #9d00ff;
+    color: #fff;
+}
+.active{
+    background-color: #9d00ff;
+    color: #fff;
+}
+.benner{
+    height: 60vh;
+    padding: 25px 2opx;
+    background-image: url(../img/ikan.gif)
+    background-position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 1 solid;
+}
+.benner::after{
+    content: block;
+    display: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    button: 0;
+    background-color: rgba(#d4d4d4);
+}
+.benner h2{
+    color:#fff;
+    z-index: 1;
+    padding: 20px 25px;
+    color: #9d00ff;
+}
+section{
+    padding: 5opx 0;
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #9d00ff;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px; 
+}
+.contact{
+    background-color: #9d00ff;
+}
+footer{
+    padding: 32px 0;
+    background-color: #296283;
+    color: #ff3c00;
+    text-align: center;
+    background-position: left;
+}
